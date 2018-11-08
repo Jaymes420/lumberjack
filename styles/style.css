@@ -1,0 +1,129 @@
+
+/* adding a background color to the body */
+
+body {
+
+background-color: black;
+}
+
+#heading {
+  color: #a6ce39;
+}
+
+/*Styling the Nav bar  */
+nav {
+  background-image: linear-gradient(rgb(112,43,47), rgba(255, 255, 0, 0.5)),
+                    url("https://stmed.net/sites/default/files/bark-wallpapers-27771-3402978.jpg");
+
+text-align: center;
+  font-size: 22px;
+  color: #EED4BF;
+  margin: 0 0 0 22px;
+  top: 0;
+  left: 0;
+  font-size: 18px;
+  padding: 10px;
+  width: 95%;
+  height: auto;
+
+  border: 3px;
+  border-style: solid;
+  border-color:#a6ce39 ;
+  font-family: courier;
+  text-decoration: none;
+  border-radius: 13px;
+
+
+}
+/* adding the menu links */
+a:link {
+  color: #a6ce39;
+}
+
+a:hover {
+  color: #4DA007  ;
+  text-decoration: line-through;
+
+}
+
+a:visited {
+  color: #7FF51C   ;
+}
+
+/* Styling the main site image */
+
+#image img {
+  border: 3px;
+  border-style: solid;
+  border-color:#a6ce39;
+  border-radius: 13px;
+}
+
+/* Styling the nav links so that they sit beside one another */
+nav li {
+  align-items: center;
+  display: inline-block;
+
+}
+
+/* Adding a Logo */
+
+nav #logo {
+  text-align: center;
+}
+/* Changing the background color of the list items in Column */
+#list {
+  background-color: #384929;
+  color: #a6ce39;
+}
+
+
+/* Styling the Three main website columns */
+.Col {
+  background-image: linear-gradient(rgb(012,43,47), rgba(255, 255, 0, 0.5)),
+                  url("https://stmed.net/sites/default/files/bark-wallpapers-27771-3402978.jpg");
+
+
+  text-align: center;
+  color: #EED4BF;
+  float: left;
+  margin: 7px;
+  width: 32%;
+  height: 350px;
+  border: 3px;
+  border-style: solid;
+  border-color: #a6ce39;
+  border-radius: 13px;
+
+  font-family: courier;
+}
+
+
+
+/* Styling the List items in the First column */
+.col li {
+  list-style-type: none;
+}
+
+/* Styliung the paragraph elements */
+p {
+  color: #a6ce39;
+  font-weight: bold;
+  background-color:#384929;
+}
+
+/* Styling the Footer */
+footer {
+  color: #a6ce39;
+  text-align: center;
+  clear:left;
+}
+
+hr.style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+}
+hr.style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
